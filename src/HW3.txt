@@ -1,0 +1,17 @@
+Jacob Voyles
+CPTS 132
+HW3 - Challenge
+
+1. I had the basic terminal interface done from 131, so that was my jumping off point. I then made a linkedList class and implemented all of the methods I used in the ShoppingList class
+
+2. The biggest issue with my code is the list traversal I used to convert from a linked list to a String[] array. It loops through the list twice and starts to bog down with a lot of entries
+
+3. I made a decision to switch from removing at an index, which I did the previous version, to removing with the name, as I found the comparison an easier and more intuitive method
+
+4. Yes, I tested with all mentioned test cases as well as some of my own and they sped up the design process.
+
+5. I had a hard time implementing the print function, I originally tried sending every node with function and doing the loop in the ShoppingList code, but pivoted to looping in the LinkedList class and sending a String[] array.
+
+6. I learned a lot about Nodes and when I should use a tail or a runner. I found the using a previous node and a runner node easier to conceptualize and overall easier to implement.
+
+7. I might try and optimize my functions more next time, they loop a lot and that bogs down total computation time.
